@@ -1,6 +1,6 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Kitchen Dash
+summary: A community based meal planning app made in 24 hours.
 tags:
 - Deep Learning
 date: "2016-04-27T00:00:00Z"
@@ -9,33 +9,49 @@ date: "2016-04-27T00:00:00Z"
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
 links:
-- icon: twitter
+- icon: github
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+  name: source code
+  url: https://github.com/Zeyu-Li/Kitchen-Dash
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: example
+# # Slides (optional).
+# #   Associate this project with Markdown slides.
+# #   Simply enter your slide deck's filename without extension.
+# #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+# #   Otherwise, set `slides = ""`.
+# slides: example
+
 ---
+## Project Description
+Kitchen Dash is in its core, intended to be used to as a meal planning app but it is much more than that. Users are able upload their recipes and view other users' recipes. This app was made in 24 hours for a hackathon so it is very unpolished and has a lot of missing features.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+## Accomplishments
+- Used the React-Native framework to use a single make the app run on both iOS and Android using a single codebase.
+- Used the Google Firebase API to implement realtime database functionality for the app.
+- Practiced agile scrum practices and incorporated a "what did I do today?" session to ensure team members stay on top of tasks.
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+## Challenges
+The main challenge we faced while developing Kitchen-Dash was due to us using few system specific frontend APIs to make styling easier but this ended up backfiring when the app showed visual glitches on one operating system while behaving completely fine on the other. To remedy this problem, we ended up refactoring the code to remove all calls to the API in question and this took a major chunk of the 24 hours we had for creating the app. However, we did learn a few things like to always read documentation for whatever API we are planning to use to ensure it works on almost all devices.
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+## Tools Used
+- {{< icon name="react" pack="fab" >}} React-Native
+- {{< icon name="cloud" pack="fas" >}} Firebase   
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+## To-Do
+- User authentication :white_check_mark:
+- App layout :white_check_mark:
+- Homepage redesign :white_large_square:
+- Recipe querying :white_large_square:
+- Add recipe function :white_large_square:
+- Weakly meal planner :white_large_square:
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+## Media
+
+{{< figure src="plan.png" caption="App layout created by Zeyu Li" >}}

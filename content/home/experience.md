@@ -22,24 +22,34 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Undergraduate Teaching Assistant
+    company: University of Alberta
     company_url: ''
-    location: California
-    date_start: '2017-01-01'
-    date_end: ''
+    location: Edmonton, Alberta
+    date_start: '2021-01-01'
+    date_end: '2021-04-30'
     description: |2-
-        Responsibilities include:
+        Teaching Assistant for the Formal systems and Logics Course (CMPUT 272). Tasks include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Grading Student assesments.
+        * Keep track and reply to queries on class forum.
+        * Hold office hours to assist students in preparing for assessments and understand lecture material.
         
-  - title: Professor
-    company: University X
+  - title: IT Assistant
+    company: Prilyx R&D
     company_url: ''
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2016-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: Remote
+    date_start: '2020-04-01'
+    date_end: '2020-05-01'
+    description: |2-
+        Contributed in creating an onboarding document for security officials switching to an IT infrastructure.
+
+        * Produced 15 e-learning modules to increase onboarding efficiency by 100%.
+        * Covered topics ranging from encryption to authentication services using step-by-step instructions.
+        * Exercised Agile practices to ensure project is completed within alloted time.
+        * Gained knowledge in workplace efficiency tools such as Jira, OneDrive, and Slack.
+
+
+
+
 ---
