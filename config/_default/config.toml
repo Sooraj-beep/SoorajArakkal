@@ -6,7 +6,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Academic"
+title = "Sooraj Arakkal"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -48,7 +48,6 @@ disableAliases = true  # Disable aliases when `redirects` is added to the `outpu
 [outputs]
   home = ["HTML", "RSS", "JSON", "WebAppManifest", "redirects", "headers"]
   section = ["HTML", "RSS"]
-
 # Configure the Markdown renderer.
 [markup]
   defaultMarkdownHandler = "goldmark"

@@ -6,7 +6,7 @@ title: Sooraj Arakkal
 superuser: true
 
 # Role/position/tagline
-role: I force electrons to do math  (Computer Scientist)
+role: Computer Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
