@@ -37,19 +37,13 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: 'mailto:soorajarakkal@gmail.com'
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/Sooraj-beep
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/sooraj-arakkal-a70493197/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
@@ -59,14 +53,14 @@ social:
 #   link: media/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "soorajarakkal@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
 
-Hey there! I am Sooraj, a student of Computing Science at the University of Alberta. I expect to graduate with a Bachelor's degree in Winter 2022. My interests include AI/ML, Software Development, Robotics and Computer Architecture.
+Hey there! I am Sooraj, a student majoring in Computing Science at the University of Alberta. I expect to graduate with a Bachelors degree in Winter 2022. My interests include AI/ML, Software Development, Robotics and Computer Architecture.
 
-Additionally, I am currently working as a Teaching Assistant for the University of Alberta for the formal systems and logic course and also have experience working in the IT sector as a technical writer.
+I have worked as a Teaching Assistant for the University of Alberta for the formal systems and logic course and also have experience working in the IT sector as a technical writer.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my [resumé](/resume.pdf).
