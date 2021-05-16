@@ -62,5 +62,3 @@ highlight_name: false
 Hey there! I am Sooraj, a student majoring in Computing Science at the University of Alberta. I expect to graduate with a Bachelors degree in Winter 2022. My interests include AI/ML, Software Development, Robotics and Computer Architecture.
 
 I have worked as a Teaching Assistant for the University of Alberta for the formal systems and logic course and also have experience working in the IT sector as a technical writer.
-
-{{< icon name="download" pack="fas" >}} Download my [resumé](/resume.pdf).
